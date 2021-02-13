@@ -1,6 +1,6 @@
 const { setDefaultTimeout, AfterAll, BeforeAll } = require('@cucumber/cucumber');
 const { createSession, closeSession, startWebDriver, stopWebDriver } = require('nightwatch-api');
-const reporter = require('cucumber-html-reporter');
+
 
 setDefaultTimeout(60000);
 
