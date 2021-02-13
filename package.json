@@ -1,0 +1,20 @@
+{
+  "name": "nightwatch-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e-test": " cucumber-js --require cucumber.conf.js --require step-definitions "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "chromedriver": "^88.0.0",
+    "nightwatch": "^1.5.1",
+    "nightwatch-api": "^3.0.1"
+  },
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
